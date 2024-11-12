@@ -36,6 +36,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="wiesenaualm_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="wiesenaualm_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="wiesenaualm_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<link href="wiesenaualm_files/libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="wiesenaualm_files/libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="wiesenaualm_files/libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="wiesenaualm_files/libs/datatables-binding-0.33/datatables.js"></script>
+<script src="wiesenaualm_files/libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="wiesenaualm_files/libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="wiesenaualm_files/libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="wiesenaualm_files/libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="wiesenaualm_files/libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="wiesenaualm_files/libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 
 
 </head>
@@ -66,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="column-screen">
-<p><a href="imgs/Screenshot%20from%202024-11-12%2018-49-05.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="imgs/Screenshot%20from%202024-11-12%2018-49-05.png" class="img-fluid"></a></p>
+<p><a href="imgs/Screenshot%20from%202024-11-12%2019-21-25.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="imgs/Screenshot%20from%202024-11-12%2019-21-25.png" class="img-fluid"></a></p>
 </div>
 <section id="kontakte" class="level2">
 <h2 class="anchored" data-anchor-id="kontakte">Kontakte</h2>
@@ -87,7 +97,12 @@ A-5542 Flachau</p>
 </section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><strong>Tim Appelhans</strong>: +49 (0)179 / 1021830</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-7864ea153eaa26bbb5ed" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-7864ea153eaa26bbb5ed">{"x":{"filter":"none","vertical":false,"data":[["1","2","3"],["Tim Appelhans","Lars Albrecht","Max Oberreiter (Jr.)"],["+49 179 1021830","+49 160 7465430","+43 664 3807304"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Name<\/th>\n      <th>Telefonnummer<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Name","targets":1},{"name":"Telefonnummer","targets":2}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -483,7 +498,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

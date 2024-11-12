@@ -3,10 +3,12 @@ title: "Wiesenaualm"
 ---
 
 :::{.column-screen}
-![](imgs/Screenshot from 2024-11-12 18-49-05.png){.lightbox}
+![](imgs/Screenshot from 2024-11-12 19-21-25.png){.lightbox}
 :::
 
 ## Kontakte
+
+
 
 ::: {.panel-tabset}
 
@@ -25,6 +27,16 @@ A-5542 Flachau
 
 ### Telefonnummern
 
-__Tim Appelhans__: +49 (0)179 / 1021830
+```{r}
+#| eval: true
+#| echo: false
+library(DT)
+
+contacts = readRDS("data/kontakte.rds")
+
+DT::datatable(contacts)
+
+```
+
 
 :::
