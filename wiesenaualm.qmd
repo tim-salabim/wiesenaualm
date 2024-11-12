@@ -1,0 +1,30 @@
+---
+title: "Wiesenaualm"
+---
+
+:::{.column-screen}
+![](imgs/Screenshot from 2024-11-12 18-49-05.png){.lightbox}
+:::
+
+## Kontakte
+
+::: {.panel-tabset}
+
+### Adressen
+
+#### Hütte
+
+Wiesenaualm 100   
+A-5542 Flachauwinkl
+
+#### Max Oberreiter (Jr.) - Verpächter
+
+Max Oberreiter   
+Schrempf-Rosnergasse 258    
+A-5542 Flachau
+
+### Telefonnummern
+
+__Tim Appelhans__: +49 (0)179 / 1021830
+
+:::
