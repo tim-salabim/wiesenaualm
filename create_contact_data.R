@@ -5,9 +5,9 @@ kontakte = data.frame(
     , "Max Oberreiter (Jr.)"
   )
   , Telefonnummer = c(
-    "+49 179 1021830"
-    , "+49 160 7465430"
-    , "+43 664 3807304"
+    "+49 XXX XXXXXXX"
+    , "+49 XXX XXXXXXX"
+    , "+43 XXX XXXXXXX"
   )
 )
 
